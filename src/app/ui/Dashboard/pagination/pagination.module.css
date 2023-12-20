@@ -1,0 +1,24 @@
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.button:first-child{
+    background-color: #e5e5e55a;
+    border-radius: 5px;
+}
+ 
+.button:last-child{
+     background-color: rgba(18, 102, 138, 0.519);
+     border-radius: 5px;
+     
+}
+.button:disabled{
+    cursor: not-allowed;
+}

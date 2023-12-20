@@ -1,0 +1,49 @@
+.container{
+    background-color: var(--bgSoft);  
+     padding: 20px;
+         border-radius: 10px;
+
+}
+
+.title{
+ color: var(--textSaft   )  ;
+ margin-bottom: 20px;
+ font-weight: 200;
+
+}
+ .table{
+    width: 100%;
+
+ }
+
+ .table td{
+    padding: 10px;
+ }
+ .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .userImage{
+    object-fit: cover;
+    border-radius: 50%;
+     box-shadow: 0px 0px 1px 1px var(--textSaft);
+/*     border: 1px solid var(--textSaft);
+ */ }
+
+ .status{
+    border-radius: 5px;
+    padding: 5px;font-size: 14px;
+    color: white;
+ }
+   
+ .pendding{  
+    background-color: #f7cb7375;
+ }
+ .done{
+    background-color:#afd6ee75 ;
+ }
+ .conselled{
+    background-color: #f7737375 ;
+ }
