@@ -39,7 +39,7 @@ const Transaction = () => {
                   width={40}
                   height={40}
                 />
-                {event.name} {event.lastName}
+                {`${event.name} /`} {event.lastName}
               </td>
               <td>{event.email}</td>
               <td>{event.phone}</td>

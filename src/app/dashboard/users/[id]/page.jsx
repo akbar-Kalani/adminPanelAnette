@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/app/ui/Dashboard/user/singleUser/singleUser.module.css";
+import styles from "@/app/ui/Dashboard/user/addUser/singleUser/singleUser.module.css"
 import Image from "next/image";
 const singelUserPage = () => {
   return (
